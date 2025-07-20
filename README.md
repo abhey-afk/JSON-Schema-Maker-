@@ -74,6 +74,47 @@ Make sure you have the following installed:
 
 ---
 
+## 🌐 Deploy to Vercel
+
+This project is optimized for Vercel deployment with zero configuration required!
+
+### Option 1: Deploy with Vercel CLI
+
+1. **Install Vercel CLI** (if not already installed)
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Login to Vercel**
+   ```bash
+   vercel login
+   ```
+
+3. **Deploy your project**
+   ```bash
+   vercel
+   ```
+
+4. **Follow the prompts** and your app will be live!
+
+### Option 2: Deploy via GitHub Integration
+
+1. **Push your code** to GitHub (already done!)
+2. **Visit** [vercel.com](https://vercel.com)
+3. **Import your GitHub repository**
+4. **Deploy** - Vercel will automatically detect it's a Vite project!
+
+### Deployment Configuration
+
+Your project includes a `vercel.json` configuration file that:
+- Optimizes the build process for Vercel
+- Handles client-side routing correctly
+- Ensures fast deployment and optimal performance
+
+**Live Demo**: Once deployed, your JSON Schema Builder will be accessible worldwide! 🌍
+
+---
+
 ## 📖 Usage Guide
 
 ### Creating Your First Schema
